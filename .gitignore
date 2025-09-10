@@ -205,3 +205,42 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data and large files (if not tracked by Git LFS)
+data/
+*.csv
+*.tsv
+*.parquet
+*.hdf5
+*.pkl
+*.feather
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook specific outputs (optional, if you want to clear outputs before committing)
+# You might consider using pre-commit hooks to clear outputs instead of ignoring notebooks entirely.
+# *.ipynb
